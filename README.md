@@ -1,5 +1,5 @@
-# EF--M6-Proyecto-integrador-Sprint-1
-Proyecto: "KanbanPro" - Kick-off del Sprint 1
+# EF--M7-Proyecto-integrador-Sprint-2
+Proyecto: "KanbanPro" - Kick-off del Sprint 2
 
 Prototipo web renderizado desde servidor para validar navegación, UI y persistencia local.
 Permite visualizar un tablero Kanban desde un archivo `data.json` y agregar nuevas tareas que quedan guardadas.
