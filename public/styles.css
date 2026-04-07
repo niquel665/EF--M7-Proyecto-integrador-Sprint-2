@@ -1,0 +1,76 @@
+:root{
+  --bg:#0b0616;
+  --border:rgba(255,255,255,.14);
+  --text:rgba(255,255,255,.92);
+  --muted:rgba(255,255,255,.70);
+  --violet:#7c3aed;
+  --pink:#ec4899;
+  --shadow:0 18px 50px rgba(0,0,0,.35);
+}
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:
+    radial-gradient(900px 500px at 15% 15%, rgba(124,58,237,.35), transparent 60%),
+    radial-gradient(900px 500px at 85% 20%, rgba(236,72,153,.25), transparent 55%),
+    radial-gradient(900px 650px at 50% 85%, rgba(167,139,250,.18), transparent 60%),
+    var(--bg);
+  color:var(--text);
+}
+
+.kp-nav{
+  position:sticky; top:0; z-index:10;
+  border-bottom:1px solid var(--border);
+  backdrop-filter:blur(10px);
+  background:rgba(11,6,22,.65);
+}
+
+.kp-brand{ font-weight:800; letter-spacing:.2px; text-decoration:none; color:var(--text); }
+/* estilo del logo kanbanPro */
+
+.kp-link{ text-decoration:none; color:var(--muted); font-weight:600; } /* links del nav */
+.kp-link:hover{ color:var(--text); }
+
+.glass{   /* estilo de tarjeta tipo vidrio */
+  background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)); 
+  border:1px solid var(--border);
+  border-radius:18px;
+  box-shadow:var(--shadow);
+}
+
+.btn-gradient{
+  background:linear-gradient(90deg, var(--violet), var(--pink));
+  border:none; color:#fff; font-weight:800;
+}
+.btn-gradient:hover{ opacity:.95; color:#fff; }
+
+.btn-ghost{
+  background:rgba(255,255,255,.05);
+  border:1px solid var(--border);
+  color:var(--text); font-weight:800;
+}
+.btn-ghost:hover{ border-color:rgba(167,139,250,.5); color:var(--text); }
+
+.glass-input{ /* cuando se hace click en el input */
+  background:rgba(255,255,255,.05)!important;
+  border:1px solid var(--border)!important;
+  color:var(--text)!important;
+}
+.glass-input::placeholder{ color:rgba(255,255,255,.45)!important; }
+.glass-input:focus{
+  border-color:rgba(167,139,250,.55)!important;
+  box-shadow:0 0 0 3px rgba(124,58,237,.18)!important;
+}
+
+.kp-col-title{ color:rgba(255,255,255,.88); font-weight:900; }
+
+.kp-task{
+  padding:12px;
+  border-radius:14px;
+  background:rgba(0,0,0,.25);
+  border:1px solid rgba(255,255,255,.12);
+  color:rgba(255,255,255,.90);
+}
+
+.auth-card{ max-width:440px; }

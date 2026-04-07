@@ -1,0 +1,72 @@
+{
+  "boards": [
+    {
+      "id": "b1",
+      "name": "KanbanPro",
+      "lists": [
+        {
+          "id": "todo",
+          "title": "Por hacer",
+          "cards": [
+            {
+              "id": "c1",
+              "title": "Configurar Express + hbs"
+            },
+            {
+              "id": "c-1772234804582-cc61d7e734c8b",
+              "title": "prueba 1"
+            },
+            {
+              "id": "c-1772234825171-ce9e5f688f0458",
+              "title": "fghfgh"
+            },
+            {
+              "id": "c-1772239103139-94ae3ca64448b",
+              "title": "prueba 20"
+            },
+            {
+              "id": "c-1772669399429-fa029145b472f",
+              "title": "lll"
+            }
+          ]
+        },
+        {
+          "id": "doing",
+          "title": "En progreso",
+          "cards": [
+            {
+              "id": "c-1772234817117-a3b495e899af",
+              "title": "ghgfhfg"
+            },
+            {
+              "id": "c-1772239108675-3b97d8ce60de3",
+              "title": "dssss"
+            },
+            {
+              "id": "c-1772669402528-61ff5c4c8ad168",
+              "title": "lll"
+            }
+          ]
+        },
+        {
+          "id": "done",
+          "title": "Hecho",
+          "cards": [
+            {
+              "id": "c-1772234832840-ef0951eb48fe8",
+              "title": "fghfghfghfhfhf"
+            },
+            {
+              "id": "c-1772239113794-23a5c0b42ab02",
+              "title": "dddd"
+            },
+            {
+              "id": "c-1772669407688-3e31414b998348",
+              "title": "pruebaaa"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
