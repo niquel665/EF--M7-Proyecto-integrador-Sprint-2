@@ -57,21 +57,21 @@ app.post("/register", (req, res) => {
   if (!nombre || !email || !password) {
     return res.status(400).render("register", {
       error: "Todos los campos son obligatorios.",
-      values: { nombre, email },
+      values: { nombre, email }
     });
   }
 
   if (nombre.length < 3) {
     return res.status(400).render("register", {
       error: "El nombre debe tener al menos 3 caracteres.",
-      values: { nombre, email },
+      values: { nombre, email }
     });
   }
 
   if (password.length < 6) {
     return res.status(400).render("register", {
       error: "La contraseña debe tener al menos 6 caracteres.",
-      values: { nombre, email },
+      values: { nombre, email }
     });
   }
 
@@ -89,14 +89,14 @@ app.post("/login", (req, res) => {
   if (!email || !password) {
     return res.status(400).render("login", {
       error: "Debes completar email y contraseña.",
-      values: { email },
+      values: { email }
     });
   }
 
   if (password.length < 6) {
     return res.status(400).render("login", {
       error: "La contraseña debe tener al menos 6 caracteres.",
-      values: { email },
+      values: { email }
     });
   }
 
